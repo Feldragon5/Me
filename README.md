@@ -1,6 +1,6 @@
-# Matthew McWilliams' Personal Website
+# Matthew McWilliam's Personal Website
 
-This is the source code for my personal website that showcases some of my web projects.
+This is the source code for my personal website that showcases some of my web projects.  
 You can view the site at https://feldragon5.github.io/Me/
 
 ## Pages
