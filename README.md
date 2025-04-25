@@ -18,3 +18,5 @@ You can view the site at https://feldragon5.github.io/Me/
 -   **make the link handle on the mystuff page appear only after a project is selected**
 -   **improve styling**
 -   **compile the tailwind**
+-   **Fix bug with the scrolling on MyStuff**
+-   **Add effect on MyStuff that looks like the price is right wheel**

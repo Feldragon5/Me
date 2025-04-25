@@ -45,16 +45,23 @@
 			class="flex flex-row justify-center items-center h-screen text-left"
 		>
 			<div
-				class="w-1/4 flex flex-col space-y-10 p-4 justify-center"
+				class="w-1/4 flex flex-col space-y-10 p-4 justify-start"
 				style="
 					position: fixed;
-					top: 1rem;
-					bottom: 0;
-					transform: none;
+					top: 2rem; /* Adjusted to be below the header */
+					bottom: 1rem;
 					left: 2%;
-					pointer-events: none;
+					overflow-y: scroll;
+					pointer-events: auto;
+					scrollbar-width: none; /* Hide scrollbar for Firefox */
 				"
 			>
+				<style>
+					/* Hide scrollbar for WebKit browsers */
+					div::-webkit-scrollbar {
+						display: none;
+					}
+				</style>
 				<button
 					class="text-xl bg-blue-600 px-4 py-3 rounded-lg shadow-md transform transition hover:scale-105 hover:bg-blue-500"
 					style="pointer-events: auto"
